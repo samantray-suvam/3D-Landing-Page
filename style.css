@@ -133,6 +133,9 @@ nav a:hover{
     color: var(--prime-color);
 }
 
+.content{
+    height: 100vh;
+}
 .content h1{
     font-size: 1.8rem;
     font-weight: 600;
@@ -145,7 +148,8 @@ nav a:hover{
 .description{
     font-size: 1rem;
     max-width: 35rem;
-    color: gray;
+    color: rgba(209, 208, 205, 0.813);
+    font-weight: bold;
 }
 .buttons{
     margin-top: 1rem;
@@ -176,4 +180,10 @@ nav a:hover{
 }
 .btn-start:hover{
     background-color: rgb(255, 194, 113);
+}
+
+.robot{
+    position: relative;
+    top: 0;
+    right: -20%;
 }
